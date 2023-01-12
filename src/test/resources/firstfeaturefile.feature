@@ -20,3 +20,8 @@ Feature: Google_Search_Functionality
     Then kullanici sonuclarda cicek oldugunu verify eder
     Then kullanici application kapatir
 
+  Scenario: TC02_volkswagen_search
+    Given kullanici google sayfasindadir
+    And kullanici volkswagen'i arar
+    Then kullanici sonuclarda volkswagen oldugunu verify eder
+    Then kullanici application kapatir
