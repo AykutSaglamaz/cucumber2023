@@ -14,7 +14,7 @@ public class Day16_C6_LoginStepDefinitions {
 
     @Given("kullanici application sayfasindadir")
     public void kullanici_application_sayfasindadir() {
-        Driver.getDriver().get(ConfigReader.getProperty("app_url_login"));
+        Driver.getDriver().get(ConfigReader.getProperty("qa_url_login"));
         try{
             Thread.sleep(1000);
             loginPage.advancedLink.click();

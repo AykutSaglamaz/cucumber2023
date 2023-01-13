@@ -11,5 +11,5 @@
       Examples: Test Data
         | kullaniciadi | kullanicisifre | default_page |
         | manager      | Manager1!      | Hotel Management |
-        | manager7     | Manager7!      | default_page |
-        | manager12    | Manager12!     | default_page |
+        | manager2     | Manager2!      | Hotel Management |
+        | manager3    | Manager3!     | Hotel Management |

@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/Sprint_13.05/Eagles/Day16_C5_US100450_kullanici_manager_kullanici_bilgilerini_kullanarak_login_yapmali.feature", // ZORUNLU  => Feature dosyanin pathini girmemiz laim
         glue = "stepdefinitions", //ZORUNLU => Stepdefinition adresi ('path)'i
         tags = "@manager_login_test",// hangi feature file kosmali onu belirtiyoruz= > Eger tags kullanmaz isek Runner tum feature run eder
-        dryRun = false // opsiyoneldir
+        dryRun = true // opsiyoneldir
 )
 
 public class Runner {
