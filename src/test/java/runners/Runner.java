@@ -8,10 +8,10 @@ import org.junit.runner.RunWith;
 
 // calistirmak istegim feature file belirtiyorum
 @CucumberOptions(
-        features = "./src/test/resources/firstfeaturefile.feature", // ZORUNLU  => Feature dosyanin pathini girmemiz laim
+        features = "src/test/resources/Day16_C4_scenario_outline_2.feature", // ZORUNLU  => Feature dosyanin pathini girmemiz laim
         glue = "stepdefinitions", //ZORUNLU => Stepdefinition adresi ('path)'i
-        tags = "@google_search",// hangi feature file kosmali onu belirtiyoruz= > Eger tags kullanmaz isek Runner tum feature run eder
-        dryRun = false // opsiyoneldir
+        tags = "@scenario_outline_2_google_arama"// hangi feature file kosmali onu belirtiyoruz= > Eger tags kullanmaz isek Runner tum feature run eder
+//        dryRun = false // opsiyoneldir
 )
 
 public class Runner {
