@@ -5,13 +5,13 @@ Feature: Google_Search_Functionality
   Background: application_sayfasina_git
     Given kullanici google sayfasindadir
 
-    @smoke @tesla
+    @smoker @tesla
   Scenario: TC01_iPhone_search
     And kullanici iPhone'u arar
     Then kullanici sonuclarda iPhone oldugunu verify eder
     Then kullanici application kapatir
 
-   @regression  @caydanlik
+   @regressions  @caydanlik
   Scenario: TC02_caydanlik_search
     And kullanici caydanlik'i arar
     Then kullanici sonuclarda caydanlik oldugunu verify eder

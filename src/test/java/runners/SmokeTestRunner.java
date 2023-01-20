@@ -14,11 +14,10 @@ import org.junit.runner.RunWith;
                 "junit:target/xml-report/cucumber.xml",
                 "rerun:target/failedRerun.txt"
         },
-        // kosacak dosyanin adresi 'path" ==> @target/failedRerun.txt
-        features = "@target/failedRerun.txt",
+        features = "src/test/resources",
         glue = "stepdefinitions",
-        tags = "@manager_login_test",
+        tags = "@smoker",
         dryRun = false
 )
-        public class FailedScenarioRunner {
+public class SmokeTestRunner {
 }
