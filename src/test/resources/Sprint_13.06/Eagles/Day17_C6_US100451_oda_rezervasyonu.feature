@@ -45,5 +45,5 @@
         Then screenshot yap
 
     Then kullanıcı success mesajını verify eder
-
+    Then kullanici application kapatir
 

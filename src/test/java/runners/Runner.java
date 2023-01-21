@@ -13,11 +13,12 @@ import org.junit.runner.RunWith;
                 "html:target/default-cucumber-reports.html",
                 "json:target/json-reports/cucumber.json",
                 "junit:target/xml-report/cucumber.xml",
-                "rerun:target/failedRerun.txt"
+                "rerun:target/failedRerun.txt",
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
         },
         features = "src/test/resources", // ZORUNLU  => Feature dosyanin pathini girmemiz laim
         glue = "stepdefinitions", //ZORUNLU => Stepdefinition adresi ('path)'i
-        tags = "@manager_login_test",// hangi feature file kosmali onu belirtiyoruz= > Eger tags kullanmaz isek Runner tum feature run eder
+        tags = "@excel_otomasyon",// hangi feature file kosmali onu belirtiyoruz= > Eger tags kullanmaz isek Runner tum feature run eder
         dryRun = false // opsiyoneldir
 )
 

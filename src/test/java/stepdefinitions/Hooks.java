@@ -25,16 +25,16 @@ public class Hooks {
     public void tearDown(Scenario scenario){
          System.out.println("Bu bir hooks @After methodudur");
          //screen almak icin : getScreenshotAs () screenShot alacaktir
-
-      final byte[]  screenshot = ((TakesScreenshot) Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
-
-      /// screenShot'i scenario raporuna ekle
-
-         if (scenario.isFailed()) {
-
-             scenario.attach(screenshot, "image/png", "screenshot");
-         }
-
+//
+//      final byte[]  screenshot = ((TakesScreenshot) Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
+//
+//      /// screenShot'i scenario raporuna ekle
+//
+//         if (scenario.isFailed()) {
+//
+//             scenario.attach(screenshot, "image/png", "screenshot");
+//         }
+//
      }
 
 }
