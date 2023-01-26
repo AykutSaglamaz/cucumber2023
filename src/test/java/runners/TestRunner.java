@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources",
         glue = "stepdefinitions",
-        tags = "@kahve",
+        tags = "@data_table_test",
         dryRun = false
 )
 public class TestRunner {

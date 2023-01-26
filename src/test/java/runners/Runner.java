@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources", // ZORUNLU  => Feature dosyanin pathini girmemiz laim
         glue = "stepdefinitions", //ZORUNLU => Stepdefinition adresi ('path)'i
-        tags = "@excel_otomasyon",// hangi feature file kosmali onu belirtiyoruz= > Eger tags kullanmaz isek Runner tum feature run eder
+        tags = "@room_rezervasyonu",// hangi feature file kosmali onu belirtiyoruz= > Eger tags kullanmaz isek Runner tum feature run eder
         dryRun = false // opsiyoneldir
 )
 

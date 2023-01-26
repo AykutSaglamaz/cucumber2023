@@ -9,7 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.util.concurrent.TimeUnit;
 
-public class Driver {
+public abstract class  Driver {
     private static WebDriver driver;
 
     /*
