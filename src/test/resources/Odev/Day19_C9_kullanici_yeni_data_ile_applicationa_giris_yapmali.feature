@@ -28,3 +28,4 @@ Feature: scenario_outline
  Scenario: tabloyu excel kullanarak olusturma
    Given kullanici datatables sayfasindadir
    And kullanici tum zorunlu alanlari "data_tables_sheet" alarak girer
+   Then kullanici application kapatir
