@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
 
         features = "src/test/resources",
         glue = "stepdefinitions",
-        tags = "@oda_rezervasyonu1",
+        tags = "@selenium_grid",
         dryRun = false
 )
 
